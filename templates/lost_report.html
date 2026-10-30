@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>REPORT A LOST ITEM</title>
+    </head>
+    <body>
+        <h1>REPORT A LOST ITEM</h1>
+        <form action="/report/lost" method="post">
+            <label for="item_title">Item Name</label>
+            <input type="text" id="item_title" name="item_title">
+            <br><br>
+
+            <label for="item_description">Item Description</label>
+            <input type="text" id="item_description" name="item_description">
+            <br><br>
+
+            <label for="item_category">Category</label>
+            <input type="text" id="item_category" name="item_category">
+            <br><br>
+
+            <label for="lost_location">Location where it was lost</label>
+            <input type="text" id="lost_location" name="lost_location">
+            <br><br>
+
+            <label for="last_seen_location">Last Seen Location</label>
+            <input type="text" id="last_seen_location" name="last_seen_location">
+            <br><br>
+
+            <button type="submit">Submit Lost Claim</button>
+        </form>
+    </body>
+</html>
