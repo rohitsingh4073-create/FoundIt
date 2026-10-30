@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Environment variables and secrets
+.env
+
+# Local database
+foundit.db
+
+# Uploaded files
+uploads/*
+!uploads/.gitkeep
+
+# Editor settings
+.vscode/
